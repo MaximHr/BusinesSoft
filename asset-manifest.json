@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/BusinesSoft/static/css/main.ff8b61a1.chunk.css",
+    "main.js": "/BusinesSoft/static/js/main.222ea7b6.chunk.js",
+    "main.js.map": "/BusinesSoft/static/js/main.222ea7b6.chunk.js.map",
+    "runtime-main.js": "/BusinesSoft/static/js/runtime-main.d3b6319d.js",
+    "runtime-main.js.map": "/BusinesSoft/static/js/runtime-main.d3b6319d.js.map",
+    "static/js/2.d3d201bb.chunk.js": "/BusinesSoft/static/js/2.d3d201bb.chunk.js",
+    "static/js/2.d3d201bb.chunk.js.map": "/BusinesSoft/static/js/2.d3d201bb.chunk.js.map",
+    "index.html": "/BusinesSoft/index.html",
+    "static/css/main.ff8b61a1.chunk.css.map": "/BusinesSoft/static/css/main.ff8b61a1.chunk.css.map",
+    "static/js/2.d3d201bb.chunk.js.LICENSE.txt": "/BusinesSoft/static/js/2.d3d201bb.chunk.js.LICENSE.txt",
+    "static/media/landing.df2bdca1.png": "/BusinesSoft/static/media/landing.df2bdca1.png",
+    "static/media/man.2bb01ec4.jpg": "/BusinesSoft/static/media/man.2bb01ec4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3b6319d.js",
+    "static/js/2.d3d201bb.chunk.js",
+    "static/css/main.ff8b61a1.chunk.css",
+    "static/js/main.222ea7b6.chunk.js"
+  ]
+}
