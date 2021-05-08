@@ -23,7 +23,7 @@ const App = () => {
                     <SideBar sidebar={sidebar} setSidebar={setSidebar}/>
                     <Navbar sidebar={sidebar} setSidebar={setSidebar}/>
                     <Switch>
-                        <Route path='/' exact>
+                        <Route path='/home' exact>
                             <Home />
                         </Route>
                         <Route path='/about'>
