@@ -17,7 +17,7 @@ const Sidebar = ({sidebar, setSidebar}) => {
                 <Link className='li' to='/products'>Products</Link>
                 <Link className='li' to='/contact'>Contacts</Link>
                 <Link className='li' to='/'>News</Link>
-                <Link className='li' to='/'>Careers</Link>
+                <Link className='li' to='/careers'>Careers</Link>
                 <Link className='li' to='/'>Downloads</Link>
                 <Link className='li' to='/'>Support</Link>
                 <Link className='li' to='/'>Partenrs</Link>

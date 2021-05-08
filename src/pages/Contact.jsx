@@ -7,14 +7,17 @@ const Contact = () => {
     const name = useRef('');
     const email = useRef('');
     const message = useRef('');
-    const [showAlert, seShowAlert] = useState(0); //false
+    const [showAlert, setShowAlert] = useState(0); //false
 
     const sendMessageHandler = () => {
         if(name.current.value.replaceAll(' ', '') === '' || email.current.value.replaceAll(' ', '') === '' || message.current.value.replaceAll(' ', '') === '') {
-            seShowAlert(1)
+            setShowAlert(1)
         } else { 
-            seShowAlert(2)
+            setShowAlert(2)
         }
+        setTimeout(() => {
+            setShowAlert(0)
+        }, 2000)
     }
     return(
         <div className="contact">

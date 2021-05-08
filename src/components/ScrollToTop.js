@@ -5,7 +5,11 @@ export default function ScrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    console.log('changee')
+    if (window.location.pathname !== '/') { 
+        document.title = 'BusinesSoft | ' + window.location.pathname.replace('/', '');
+    } else {
+      document.title = 'BusinesSoft - The Inteligent Software';
+    }
   }, [pathname]);
 
   return null;

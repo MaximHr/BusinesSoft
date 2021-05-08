@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Products from './pages/Products';
+import Careers from './pages/Careers';
 
 
 const App = () => {
@@ -34,6 +35,9 @@ const App = () => {
                         </Route>
                         <Route path='/products'>
                             <Products />
+                        </Route>
+                        <Route path='/careers'>
+                            <Careers />
                         </Route>
                     </Switch>
                     <Footer year='2021'/>
