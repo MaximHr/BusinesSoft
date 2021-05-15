@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1080px) {
+  .home div:nth-of-type(1) .description {
+    padding-left: 0rem;
+  }
+  .sidebar {
+    width: 250px;
+  }
+  .boxes {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .mail {
+    flex-direction: column;
+  }
+  .footer .container {
+    padding: 1rem 0;
+    flex-direction: column;
+    gap: 1rem;
+    p {
+      padding: 0.5rem 0;
+    }
+  }
+  .home {
+    h1 {
+      padding-bottom: 1rem;
+    }
+    img{ 
+      display: none;
+    }
+    div:nth-of-type(1) {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      .btn {
+        margin: 1rem 0;
+      }
+    }
+  }
+  .about {
+    .container {
+      div {
+        width: 100%;
+      }
+      flex-direction: column;
+      gap: 3rem;
+    }
+  }
+  .contact {
+    .container {
+      h4 {margin: 0; padding: 0; width: 100%;}
+      .section { margin-bottom: 2rem;}
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      .right {
+        width: 100%;
+        margin-top: 3rem;
+      }
+    }
+  }
+  .careers .container {
+    display: flex;
+    flex-direction: column;
+    .info {width: 100%; margin-right: 0;}
+    .requirements {
+      width: 100%;
+      padding-top: 2rem;
+    }
+  }
+}

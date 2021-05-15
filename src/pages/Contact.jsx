@@ -38,18 +38,18 @@ const Contact = () => {
             <h3>We are looking forward to start a project with you!</h3>
             <div className="container">
                 <div>
-                <div>
+                <div className='section'>
                     <a><FontAwesomeIcon icon={faMapMarkedAlt}/></a>
                     <h4>Bulgaria, Sofia 1407 76А James Bourcher Blvd.
                         HILL TOWER Business Center, floor 2
                     </h4>
                 </div>
-                <div>
+                <div className='section'>
                     <a><FontAwesomeIcon icon={faPhone} className='rotate'/></a>
                     <h4>+359 2 862 52 52
                     </h4>
                 </div>
-                <div>
+                <div className='section'>
                     <a><FontAwesomeIcon icon={faClock}/></a>
                     <h4>Mon – Fri …… 10 am – 8 pm
                         Sat, Sun …… Closed

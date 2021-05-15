@@ -1,6 +1,7 @@
-import React, {useState, Fragment} from 'react';
+import React, {useState} from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './styles/app.scss';
+import './styles/mobile.scss';
 //components
 import Navbar from './components/Navbar';
 import SideBar from './components/Sidebar';
